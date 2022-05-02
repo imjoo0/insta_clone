@@ -1,0 +1,432 @@
+
+
+@media screen and (min-width: 860px) {
+    .icon {
+      width: 16px;
+  
+    }
+    body {
+      background-color: whitesmoke;
+  
+  
+    }
+    #insta_main_top_desktop{
+  
+      display: flex ;
+      position: fixed;
+      justify-content: center;
+      right : 0;
+      top : 0;
+      left: 0;
+      flex-direction: row;
+      align-items: center;
+      border-bottom: 1px darkgrey solid;
+      background-color: white;
+    }
+    #insta_main_top_desktop #logo_desk{
+      width: 100px;
+      margin-right: 100px;
+    }
+    #insta_main_top_desktop #wrap_top_icon{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-left: 100px;
+    }
+    #insta_main_top_desktop #wrap_top_icon>img{
+      width : 20px;
+      margin-right: 10px;
+  
+    }
+    #insta_main_top{
+      display: none;
+      visibility: hidden;
+    }
+    #insta_main_bottom{
+      display:none;
+    }
+    #container{
+      display : flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 72px 0;
+    }
+    #sub_container {
+      margin-left: 30px;
+      display: flex;
+      flex-direction: column;
+  
+    }
+    #sub_container #container_title{
+      display: flex;
+      flex-direction: row;
+  
+    }
+    #sub_container #container_title > p{
+      margin-right: 30px;
+      font-weight: bold;
+    }
+    #sub_container .container_item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin : 10px 0;
+    }
+    #sub_container .container_item > img{
+      width:30px;
+      height: 30px;
+      border-radius: 100px;
+      border : 1px solid grey
+    }
+    #sub_container .container_item .reco_user > p{
+      margin: 0px 5px;
+      font-weight: bold;
+      margin-right: 32px;
+    }
+    #sub_container .container_item > p{
+      margin: 0px 5px;
+      color :blue;
+      font-weight: bold;
+    }
+    #story_peed {
+      max-width: 400px;
+  
+    }
+    body{
+  
+    margin : auto;
+  
+  }
+  .icon {
+    width: 16px;
+  
+  
+  }
+  #insta_main{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  
+  /*스토리 피드 id값은 헤더메뉴와
+   푸터메뉴 고정높이값 만큼 여백을주기위해서*/
+  
+  #insta_story_line{
+    border-top: 0.1vh solid grey;
+    border-bottom: 0.1vh solid grey;
+    background-color: whitesmoke;
+  
+  }
+  
+  #insta_story_line .story_line_item{
+    margin : 2% 2%;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: flex-start;
+    align-items: center;
+    overflow: auto;
+    text-align: center;
+  
+  }
+  
+  #insta_story_line .story_line_item .items{
+    align-items: center;
+    /*height: 100px;*/
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+    /*text-align: center;*/
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  #insta_story_line .story_line_item .items > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0.5vh darkgrey solid;
+  }
+  #insta_story_line .story_line_item .items > p{
+    margin : auto;
+  }
+  
+  
+  #insta_user_peed_top{
+  margin : 1% 3%;
+    display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  #insta_user_peed_top>img{
+    width: 16px;
+  
+  }
+  #insta_user_peed_top #user{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  }
+  #insta_user_peed_top #user>img{
+    width :11%;
+    border-radius: 100%;
+    border: solid
+  }
+  #insta_user_peed_top #user>p{
+    margin-left: 4%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #insta_user_peed_img{
+  
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1vh solid grey;
+    border-bottom: 0.1vh solid grey;
+  }
+  #insta_user_peed_img>img{
+    width: 100%;
+  }
+  #insta_user_peed_bottom{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px 20px;
+  }
+  #insta_user_peed_bottom #peed_bottom_left_icon>img{
+    margin-right: 16px;
+  }
+  
+  #insta_user_info{
+  display: flex;
+    flex-direction: column;
+  }
+  #insta_user_info #info_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size : 12px;
+  }
+  #insta_user_info #info_top>img{
+    width : 30px;
+  
+    border-radius: 100%;
+    border : 1px solid darkgrey;
+    margin : 5px 16px;
+  }
+  #insta_user_info #info_top>p{
+    margin: 1vh 0;
+  }
+  #insta_user_info #info_mid{
+    margin : 0 20px;
+    font-size : 12px;
+  }
+  #insta_user_info #info_mid>p{
+    margin :auto;
+  }
+  #insta_user_info #info_mid>p>b{
+    margin-right: 16px;
+  }
+  #insta_user_info #info_bottom{
+    margin : 0 2vw;
+    font-size: 12px;
+  
+  }
+  
+  
+  }
+  
+  @media screen and (max-width: 860px){
+    #sub_container{
+      display: none;
+    }
+    #insta_main_top_desktop{
+      display:none;
+    }
+  body{
+  
+    margin : auto;
+  
+  }
+  .icon {
+    width: 16px;
+  
+  
+  }
+  #insta_main{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #insta_main_top{
+    /*height: 100px;*/
+  
+    /*margin:auto;*/
+    display : flex;
+    justify-content: space-between;
+    align-items : center;
+    height: 7.6vh;
+    background-color: white;
+    border-bottom: 0.1vh solid grey;
+    position: fixed;
+    top : 0;
+    left: 0;
+    right: 0;
+    padding: 0 4vw;
+  
+  }
+  #insta_main_top #logo{
+    width: 20vw;
+  
+  }
+  /*스토리 피드 id값은 헤더메뉴와
+   푸터메뉴 고정높이값 만큼 여백을주기위해서*/
+  #story_peed{
+    margin: 7.6vh 0;
+  }
+  #insta_story_line{
+    border-top: 0.1vh solid grey;
+    border-bottom: 0.1vh solid grey;
+    background-color: whitesmoke;
+  
+  }
+  
+  #insta_story_line .story_line_item{
+    margin : 2% 2%;
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: flex-start;
+    align-items: center;
+    overflow: scroll;
+    text-align: center;
+  
+  }
+  
+  #insta_story_line .story_line_item .items{
+    align-items: center;
+    /*height: 100px;*/
+    /*margin-left: 15px;*/
+    /*margin-right: 15px;*/
+    /*text-align: center;*/
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  #insta_story_line .story_line_item .items > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0.5vh darkgrey solid;
+  }
+  #insta_story_line .story_line_item .items > p{
+    margin : auto;
+  }
+  
+  
+  #insta_user_peed_top{
+  margin : 1% 3%;
+    display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  #insta_user_peed_top>img{
+    width: 5%;
+    height: 5%;
+  
+  }
+  #insta_user_peed_top #user{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+  }
+  #insta_user_peed_top #user>img{
+    width :11%;
+    border-radius: 100%;
+    border: solid
+  }
+  #insta_user_peed_top #user>p{
+    margin-left: 4%;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  #insta_user_peed_img{
+  
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1vh solid grey;
+    border-bottom: 0.1vh solid grey;
+  }
+  #insta_user_peed_img>img{
+    width: 100%;
+  }
+  #insta_user_peed_bottom{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:1vh 5vw;
+  }
+  #insta_user_peed_bottom #peed_bottom_left_icon>img{
+    margin-right: 4vw;
+  }
+  
+  #insta_user_info{
+  display: flex;
+    flex-direction: column;
+  }
+  #insta_user_info #info_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size : 12px;
+  }
+  #insta_user_info #info_top>img{
+    width : 5%;
+    height: 5%;
+    border-radius: 100%;
+    border : 0.1vh solid;
+    margin : 0 2vw;
+  }
+  #insta_user_info #info_top>p{
+    margin: 1vh 0;
+  }
+  #insta_user_info #info_mid{
+    margin : 0 2vw;
+    font-size : 12px;
+  }
+  #insta_user_info #info_mid>p{
+    margin :auto;
+  }
+  #insta_user_info #info_mid>p>b{
+    margin-right: 2vw;
+  }
+  #insta_user_info #info_bottom{
+    margin : 0 2vw;
+    font-size: 12px;
+  
+  }
+  
+  #insta_main_bottom{
+    background-color: white;
+    border-top: 0.1vh solid grey;
+    position: fixed;
+    bottom : 0;
+    /*left: 0;*/
+    /*right: 0;*/
+    width: 100%;
+    height: 7.6vh;
+  
+  
+  }
+  #insta_main_bottom #bottom_icons{
+    margin : 2vh 5vw;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  }
